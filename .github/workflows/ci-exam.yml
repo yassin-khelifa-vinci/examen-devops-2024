@@ -31,6 +31,9 @@ jobs:
             - name: Test and coverage with Jest
               run: npm run test
 
+            - name: Build
+              run: npm run build
+
             - name: Display end of pipeline
               run: echo "Pipeline ended at $(date)"
 
