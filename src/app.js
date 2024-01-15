@@ -57,3 +57,5 @@ try {
     // eslint-disable-next-line no-console
     console.error(JSON.stringify(err));
 }
+
+// Bonjour !
