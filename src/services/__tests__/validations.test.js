@@ -11,4 +11,9 @@ describe('validations tests suites - isValid', () => {
         const result = isValid('1234567&');
         expect(result).toBe(true);
     });
+
+    test('should return true when given 1 number', () => {
+        const result = isValid('abcdef1&');
+        expect(result).toBe(true);
+    });
 });
