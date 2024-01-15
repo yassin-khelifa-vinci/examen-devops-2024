@@ -3,7 +3,7 @@ const { isValid } = require('../validations');
 
 describe('validations tests suites - isValid', () => {
     test('should return true', () => {
-        const result = isValid("12345678");
+        const result = isValid('12345678');
         expect(result).toBe(true);
     });
 });
