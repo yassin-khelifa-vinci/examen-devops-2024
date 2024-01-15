@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1705333246148" clover="3.2.0">
-  <project timestamp="1705333246148" name="All files">
-    <metrics statements="3" coveredstatements="3" conditionals="8" coveredconditionals="8" methods="1" coveredmethods="1" elements="12" coveredelements="12" complexity="0" loc="3" ncloc="3" packages="1" files="1" classes="1"/>
+<coverage generated="1705333747639" clover="3.2.0">
+  <project timestamp="1705333747640" name="All files">
+    <metrics statements="6" coveredstatements="6" conditionals="2" coveredconditionals="2" methods="3" coveredmethods="3" elements="11" coveredelements="11" complexity="0" loc="6" ncloc="6" packages="1" files="1" classes="1"/>
     <file name="validations.js" path="C:\Users\hgc\Downloads\devops-exam-2024\devops-exam-2024\src\services\validations.js">
-      <metrics statements="3" coveredstatements="3" conditionals="8" coveredconditionals="8" methods="1" coveredmethods="1"/>
+      <metrics statements="6" coveredstatements="6" conditionals="2" coveredconditionals="2" methods="3" coveredmethods="3"/>
       <line num="2" count="1" type="stmt"/>
       <line num="3" count="2" type="stmt"/>
-      <line num="15" count="1" type="stmt"/>
+      <line num="5" count="2" type="stmt"/>
+      <line num="11" count="2" type="stmt"/>
+      <line num="12" count="8" type="stmt"/>
+      <line num="16" count="1" type="stmt"/>
     </file>
   </project>
 </coverage>
