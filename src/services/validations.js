@@ -4,7 +4,8 @@ const isValid = (gamerTag) => {
 
     return (
         gamerTag.length >= 8 &&
-        haveAtLeastOneSpecialCharacter(gamerTag, specialCharacters)
+        haveAtLeastOneSpecialCharacter(gamerTag, specialCharacters) &&
+        haveAtLeastOneNumber(gamerTag)
     );
 };
 
@@ -12,6 +13,15 @@ function haveAtLeastOneSpecialCharacter(gamerTag, specialCharacters) {
     return specialCharacters.some((specialCharacter) => {
         return gamerTag.includes(specialCharacter);
     });
+}
+
+function haveAtLeastOneNumber(gamerTag) {
+    for (let i = 0; i < gamerTag.length; i++) {
+        if (!isNaN(parseInt(gamerTag[i]))) {
+            return true;
+        }
+    }
+    return false;
 }
 
 exports.isValid = isValid;
